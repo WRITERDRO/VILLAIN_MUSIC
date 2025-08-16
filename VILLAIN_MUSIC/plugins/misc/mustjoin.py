@@ -5,7 +5,7 @@ from VILLAIN_MUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "Iamvillain77"
+MUST_JOIN = "Veron_bots"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
@@ -26,10 +26,10 @@ async def must_join_channel(app: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/oldskoolgc"),
+                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/Veron_bots"),
                             ],
                             [
-                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/iamvillain77"),
+                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/Matlabi_Duniyah"),
                             ]
                         ]
                     )
